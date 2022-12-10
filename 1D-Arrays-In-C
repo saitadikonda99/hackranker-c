@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+   int n,sum=0;
+   scanf("%d",&n);
+   int sai[n];
+   for( int k=0;k<n;k++ ) 
+    scanf("%d",&sai[k]);
+         for( int k=0;k<n;k++ )
+           sum = sum +sai[k];
+           printf("%d\n",sum); 
+    return 0;
+}
